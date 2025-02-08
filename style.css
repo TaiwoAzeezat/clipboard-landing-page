@@ -620,6 +620,7 @@
     row-gap: 5rem;
     transform: scale(0.4);
     margin-top: -12rem;
+    margin-bottom: -12rem;
   }
   .footer {
     width: 100%;
@@ -627,8 +628,61 @@
     background-color: #9eabb21d;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2rem 10rem;
+    row-gap: 3rem;
+  }
+  .frst {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+  }
+  .links {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .fl {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+  }
+  .fl p {
+    width: 100%;
+    color: hsl(210, 10%, 33%);
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    cursor: grabbing;
+    white-space: nowrap;
+  }
+  .fourth-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4rem;
+    margin-bottom: 7rem;
+  }
+  .bb {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.9rem;
   }
 }
